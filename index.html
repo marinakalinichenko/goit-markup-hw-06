@@ -293,7 +293,7 @@
         <a class="footer-link link" href="/">Web<span class="footer-studio">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
-        <div class="">
+        <div class="footer-field">
             <h3 class="footer-title">Social media</h3>
             <ul class="footer-soc-list list">
                 <li class="footer-soc-item">
@@ -321,9 +321,16 @@
                 </a></li>
             </ul>
         </div>
-    <div>
-
-    </div>
+        <div class="footer-sub">
+        <h3 class="footer-title-sub">Subscribe</h3>
+        <form class="footer-form">
+        <input type="email" class="footer-input" name="user-email" required placeholder="E-mail"/> 
+        <button type="submit" class="footer-submit">Subscribe
+            <svg class="footer-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg/symbol-defs.svg#icon-Frame-3-1"></use>
+            </svg>
+        </button>
+    </form></div>
     </div>
     </footer>
    
@@ -340,7 +347,7 @@
                 <div class="modal-field">
                     <label for="user-name" class="input-text">Name</label>
                     <div class="input-wrap">
-                <input type="text" class="modal-input" name="user-name" required />
+                <input type="text" class="modal-input" id="user-name" name="user-name" required />
                 <svg class="input-icon" width="18" height="18">
                     <use href="./images/icons.svg/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
                 </svg>
@@ -350,7 +357,7 @@
             <div class="modal-field">
                 <label for="user-tel" class="input-text">Phone</label>
                 <div class="input-wrap">
-                <input type="tel" class="modal-input" name="user-tel" required  />
+                <input type="tel" class="modal-input" id="user-tel" name="user-tel" required  />
                 <svg class="input-icon" width="18" height="18">
                     <use href="./images/icons.svg/symbol-defs.svg#icon-phone-black-18dp-1-1"></use>
                 </svg>
@@ -360,7 +367,7 @@
                 <div class="modal-field">
                     <label for="user-email" class="input-text">Email</label>
                     <div class="input-wrap">
-                <input type="email" class="modal-input" name="user-email" required/>
+                <input type="email" class="modal-input" id="user-email" name="user-email" required/>
                 <svg class="input-icon" width="18" height="18">
                     <use href="./images/icons.svg/symbol-defs.svg#icon-email-black-18dp-1-1"></use>
                 </svg></div>
